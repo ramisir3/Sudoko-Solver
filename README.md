@@ -22,9 +22,11 @@ mode, and to print the puzzle in puzzle mode.
 
 
 # Used Hardware and Software
-Inkspace GCode 
-Universal GCode sender (UGS Platfom)
-ESP32
-Arduino Uno
-CNC XY movement with stpper motor + servo motor with pen 
-Raspbery Pi4 + Raspberry Camera
+* Mobile app built using Java
+* Ai model for digit recognition using python
+* Inkspace GCode 
+* Universal GCode sender (UGS Platfom)
+* ESP32
+* Arduino Uno
+* CNC XY movement with stpper motor + servo motor with pen 
+* Raspbery Pi4 + Raspberry Camera
