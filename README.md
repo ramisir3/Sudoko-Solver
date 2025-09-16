@@ -1,4 +1,4 @@
-# Sudoko-Solver
+# Sudoko Solver
 Presented in partial fulfillment of the requirements for bachelor’s degree in computer engineering at An-Najah National Univeristy.
 
 # Project Summary
