@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f4c61"
+    tools:context=".PuzzleMode">
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="346dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/corner"
+        android:text="Beginner"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Beginner" />
+
+    <Button
+        android:id="@+id/medBtn"
+        android:layout_width="346dp"
+        android:layout_height="97dp"
+        android:background="@drawable/corner"
+        android:text="Intermediate"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/hardBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/easy"
+        app:layout_constraintVertical_bias="0.465"
+        tools:text="Intermediate" />
+
+    <Button
+        android:id="@+id/hardBtn"
+        android:layout_width="346dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/corner"
+        android:text="Advanced"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Advanced" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="313dp"
+        android:layout_height="128dp"
+        android:alpha="@dimen/material_emphasis_medium"
+        android:text="Choose puzzle difficulty"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/easy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
