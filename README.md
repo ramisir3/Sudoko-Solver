@@ -19,3 +19,12 @@ Features included in the project:
 6. Using a camera to scan the grid on a paper.
 7. Using a CNC machine with a pen to fill the results on the paper in solve
 mode, and to print the puzzle in puzzle mode.
+
+
+# Used Hardware and Software
+Inkspace GCode 
+Universal GCode sender (UGS Platfom)
+ESP32
+Arduino Uno
+CNC XY movement with stpper motor + servo motor with pen 
+Raspbery Pi4 + Raspberry Camera
