@@ -1,7 +1,10 @@
 # Sudoko-Solver
 Presented in partial fulfillment of the requirements for bachelor’s degree in computer engineering at An-Najah National Univeristy.
 
-# Project Summary (check Report.pdf for the full details and images)
+# Project Summary
+[Click here to see full report including details and images](https://drive.google.com/file/d/1lwlYkDZebzZUHP5b2JcMOkvz-2ybej5f/view?usp=sharing)
+
+
 Sudoku Solving Robot is a robot that can help players solve and fill the sudoku
 grid automatically, making it easier to solve for players learning the game or stuck
 in the process of solving. This is achieved by using image processing and machine
